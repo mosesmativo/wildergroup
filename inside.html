@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content=""/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="author" content=""/>
+    <meta name="publisher" content=""/>
+    <meta name="copyright" content=""/>
+    <meta name="creation_Date" content="12/05/2022"/>
+    <meta name="expires" content=""/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Wilder Side Group</title>
+    <!--StyleSheet-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  
+    <script src="js/google.api.js" type="text/Javascript"></script>
+  </head>
+
+<body>
+    
+<!-- Navigation -->
+<nav id="navigation" class="pt-5 pb-3 dark header-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-md-4 main-menu">
+                <label for="menu-control" class="hamburger">
+                    <i class="hamburger__icon"></i>
+                    <i class="hamburger__icon"></i>
+                    <i class="hamburger__icon"></i>
+                  </label>
+                 <span class="menu-title">Menu</span>
+                  <input type="checkbox" id="menu-control" class="menu-control">
+                  
+                  <aside class="sidebar">
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <nav class="sidebar__menu">
+                                <img src="./images/black-logo.png" alt="black logo" class="hamburger-logo">
+                                <ul>
+                                    <li class="parent">
+                                        <a href="javascript:void(0)" class="active">Camps</a>
+                                        <ul class="dropdown child">
+                                            <li> 
+                                                <a href="javascript:void(0)">Entim</a>
+                                            </li>
+                                            <li> 
+                                                <a href="javascript:void(0)">Entim Private</a>
+                                            </li>
+                                            <li> 
+                                                <a href="javascript:void(0)">Lerai</a>
+                                            </li>
+                                            <li> 
+                                                <a href="javascript:void(0)">Ilkeliani</a>
+                                            </li>
+                                            <span class="opening">The River Camp (Opening Soon)</span>
+                                        </ul>
+                                    </li>
+                                    <li class="parent">
+                                        <a href="javascript:void(0)">Destinations</a>
+                                        <ul class="dropdown child">
+                                            <li> 
+                                                <a href="javascript:void(0)">Entim2</a>
+                                            </li>
+                                            <li> 
+                                                <a href="javascript:void(0)">Entim Private2</a>
+                                            </li>
+                                            <li> 
+                                                <a href="javascript:void(0)">Lerai2</a>
+                                            </li>
+                                            <li> 
+                                                <a href="javascript:void(0)">Ilkeliani2</a>
+                                            </li>
+                                            <span class="opening">The River</span>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">Experiences</a></li>
+                                    <li><a href="">The Brand</a></li>
+                                    <li><a href="">CSR </a></li>
+                                </ul>
+                                <a href="javascript:void(0)" id="reserve" class="box-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Reserve
+                                </a>
+                              </nav>
+                        </div>
+                        <div class="col-12 col-md-7 light featured d-lg-block d-sm-block d-md-block d-none">
+                            <div class="row">
+                                <div class="col-12 nav-title">
+                                    <h2>Featured Camp</h2>
+                                </div>
+                                <div class="col-12 col-md-7 testimony-holder">
+                                    <div class="small-heading">
+                                        <h2>Entim</h2>
+                                        <img src="./images/icons/black.png" alt="Images">
+                                        <h3>Masaai Mara</h3>
+                                    </div>
+                                    <p>Our prime location along the Mara River is unrivalled for seeing and photographing animals all year around, but particularly to observe the greatest wildlife show on earth; over a million wildebeest, zebra and antelopes migrating from the Serengeti into the Masai Mara (July-October).</p>
+                                    <a href="javascript:void(0)" class="discover">Discover More</a>
+                                </div>
+                                <div class="col-12 col-md-5 p-0">
+                                    <img src="./images/testimony.png" alt="Wilder Side Testimonials" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <label for="menu-control" class="sidebar__close"></label>
+                    
+                  </aside>
+            </div>
+            <div class="col-5 col-md-4 text-center main-logo">
+                <a href="javascript:void(0)">
+                    <img src="./images/logo.png" alt="Wilder Side" class="logo" />
+                </a>
+            </div>
+            <div class="col-3 col-md-4 text-end reserve-form">
+                <a href="javascript:void(0)" id="reserve" class="box-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Reserve
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- Navigation -->
+
+
+<!-- Banner -->
+<section class="banner pb-5">
+    <div class="row">
+        <div class="col-12">
+            <div id="banner" class="home-banner-holder owl-carousel owl-theme">
+                <img src="./images/banner.jpg" alt="Wilder Side" width="100%" />
+                <img src="./images/banner.jpg" alt="Wilder Side" width="100%" />
+             </div>
+        </div>
+    </div>
+</section>
+<!-- End Of Banner -->
+
+<section class="wilder-side dark pt-5 bp-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 pb-5">
+                <h1>Discover your Wilder Side</h1>
+            </div>
+            <div class="col-12 col-md-10 mx-auto pt-5 experience-holder">
+                <div class="row">
+                    <div class="col-12 col-md-7 mx-auto text-center experience-content">
+                        <h2>Welcome to The Wilder Group</h2>
+                        <p>The CS30 is compact in size but mighty in features.  Experience Cappuccino, Espresso and Coffee at the touch of a button and a professional milk system for delicate foam and efficiency through the double Espresso /Coffee function.</p>
+                    </div>
+                    <div class="col-12 col-md-12 pt-5 mt-5">
+                        <div id="four" class="four-icons owl-carousel owl-theme text-center">
+                            <div class="experience">
+                                <img src="./images/prime.png" alt="Wilder Side experience">
+                                <h2>Prime Locations</h2>
+                            </div>
+                            <div class="experience">
+                                <img src="./images/rich.png" alt="Wilder Side experience">
+                                <h2>Rich Experience</h2>
+                            </div>
+                            <div class="experience">
+                                <img src="./images/warm.png" alt="Wilder Side experience">
+                                <h2>Warm Hospitality</h2>
+                            </div>
+                            <div class="experience">
+                                <img src="./images/quality.png" alt="Wilder Side experience">
+                                <h2>Quality Amenities</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center pt-5 mt-5">
+                <a href="javascript:void(0)" class="discover">The Brand</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="camp dark text-white pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center pt-5">
+                <h2>Our Camps</h2>
+            </div>
+            <div class="col-12 col-md-12 pt-5">
+                <div id="two" class="camp-slider owl-carousel owl-theme text-center">
+                    <div class="camp-holder">
+                        <div class="image-holder">
+                            <img src="./images/mara1.jpg" alt="Wilder Side Mara">
+                        </div>
+                        <h2>Entim</h2>
+                        <h3>Masaai Mara</h3>
+                        <p>Entim is designed to give you the friendliest, most intimate, luxury safari camp experience and the best wildlife safari in the Masai Mara.</p>
+                        <a href="javascript:void(0)" class="discover">Explore</a>
+                    </div>
+                    <div class="camp-holder">
+                        <div class="image-holder">
+                            <img src="./images/mara2.jpg" alt="Wilder Side Mara">
+                        </div>
+                        <h2>Lerai</h2>
+                        <h3>Masaai Mara</h3>
+                        <p>Entim is designed to give you the friendliest, most intimate, luxury safari camp experience and the best wildlife safari in the Masai Mara.</p>
+                        <a href="javascript:void(0)" class="discover">Explore</a>
+                    </div>
+                    <div class="camp-holder">
+                        <div class="image-holder">
+                            <img src="./images/mara1.jpg" alt="Wilder Side Mara">
+                        </div>
+                        <h2>Entim</h2>
+                        <h3>Masaai Mara</h3>
+                        <p>Entim is designed to give you the friendliest, most intimate, luxury safari camp experience and the best wildlife safari in the Masai Mara.</p>
+                        <a href="javascript:void(0)" class="discover">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center pt-5 mt-5">
+                <a href="javascript:void(0)" class="discover">Camps & Lodges</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="migration text-black pt-5 pb-5 light">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2>The Great Migration</h2>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="image-holder">
+                    <img src="./images/mara3.jpg" alt="Wilder Side Mara">
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="image-holder">
+                    <img src="./images/mara4.jpg" alt="Wilder Side Mara">
+                </div>
+            </div>
+            <div class="col-12 migration-content col-md-7 mx-auto text-center mt-5 pt-4">
+                <div class="main-title">
+                    <h3>Front row seats to The best show in The Masaai Mara. The Migration. </h3>
+                 </div>
+                <div class="content-holder">
+                    <div class="small-heading mt-5 pt-4">
+                        <h2>Entim</h2>
+                        <img src="./images/icons/black.png" alt="Images"/>
+                        <h3>Masaai Mara</h3>
+                        <p>Our prime location along the Mara River is unrivalled for seeing and photographing animals all year around, but particularly to observe the greatest wildlife show on earth; over a million wildebeest, zebra and antelopes migrating from the Serengeti into the Masai Mara (July-October).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center pt-3 mt-5 pb-5">
+                <a href="javascript:void(0)" class="discover">Discover Masaai Mara</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="review-section light pt-3 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 mx-auto review-container pt-5 pb-5">
+                <h3>Trip Advisor Review</h3>
+                <h2>“Entim Camp location is amazing - we witnessed a migration crossing right outside our tent!” </h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="choose-experience light pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-3">
+                <h2>Choose your Experience</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center col-md-4 pt-5 experiences-holder">
+                <div class="camp-holder">
+                    <div class="image-holder">
+                        <img src="./images/pic6.png" alt="Wilder Side Mara">
+                    </div>
+                    <h2>The Great Migration</h2>
+                    <p>Entim is designed to give you the friendliest, most intimate, luxury safari camp experience and the best wildlife safari in the Masai Mara.</p>
+                </div>
+            </div>
+            <div class="col-12 text-center col-md-4 pt-5 experiences-holder">
+                <div class="camp-holder">
+                    <div class="image-holder">
+                        <img src="./images/pic2.png" alt="Wilder Side Mara">
+                    </div>
+                    <h2>Game Drives</h2>
+                    <p>Entim is designed to give you the friendliest, most intimate, luxury safari camp experience and the best wildlife safari in the Masai Mara.</p>
+                </div>
+            </div>
+            <div class="col-12 text-center col-md-4 pt-5 experiences-holder">
+                <div class="camp-holder">
+                    <div class="image-holder">
+                        <img src="./images/pic3.png" alt="Wilder Side Mara">
+                    </div>
+                    <h2>Ride Masaai Mara</h2>
+                    <p>Entim is designed to give you the friendliest, most intimate, luxury safari camp experience and the best wildlife safari in the Masai Mara.</p>
+                </div>
+            </div>
+            <div class="col-12 text-center col-md-4 pt-5 experiences-holder">
+                <div class="camp-holder">
+                    <div class="image-holder">
+                        <img src="./images/pic5.png" alt="Wilder Side Mara">
+                    </div>
+                    <h2>Hot Air Balloon</h2>
+                    <p>Entim is designed to give you the friendliest, most intimate, luxury safari camp experience and the best wildlife safari in the Masai Mara.</p>
+                </div>
+            </div>
+            <div class="col-12 text-center col-md-4 pt-5 experiences-holder">
+                <div class="camp-holder">
+                    <div class="image-holder">
+                        <img src="./images/pic4.png" alt="Wilder Side Mara">
+                    </div>
+                    <h2>Cliff Boat Safari</h2>
+                    <p>Entim is designed to give you the friendliest, most intimate, luxury safari camp experience and the best wildlife safari in the Masai Mara.</p>
+                </div>
+            </div>
+            <div class="col-12 text-center col-md-4 pt-5 experiences-holder">
+                <div class="camp-holder">
+                    <div class="image-holder">
+                        <img src="./images/pic.png" alt="Wilder Side Mara">
+                    </div>
+                    <h2>Relaxation & Wellness</h2>
+                    <p>Entim is designed to give you the friendliest, most intimate, luxury safari camp experience and the best wildlife safari in the Masai Mara.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center pt-3 mt-5 pb-5">
+                <a href="javascript:void(0)" class="discover">All Experiences</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials mb-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-9 mx-auto">
+                <div id="testimony" class="testimony-slider owl-carousel owl-theme dark">
+                    <div class="row">
+                        <div class="col-12 col-md-7 testimony-holder">
+                            <h3>Reviews & Testimonials</h3>
+                            <div class="user-name pt-4 pb-4">
+                                <img src="./images/icons/white.png" height="40px" width="auto" alt="Wilder Side icons">
+                                <h2>Ian Stanley <span>Mara Entim Review</span></h2>
+                            </div>
+                            <p>Absolutely Incredible service, amazing food and breath taking views! I could see the migration directly from the lodge. Highly recommend. </p>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <img src="./images/testimony.png" alt="Wilder Side Testimonials" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-7 testimony-holder">
+                            <h3>Reviews & Testimonials</h3>
+                            <div class="user-name pt-4 pb-4">
+                                <img src="./images/icons/white.png" height="40px" width="auto" alt="Wilder Side icons">
+                                <h2>Ian Stanley <span>Mara Entim Review</span></h2>
+                            </div>
+                            <p>Absolutely Incredible service, amazing food and breath taking views! I could see the migration directly from the lodge. Highly recommend. </p>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <img src="./images/testimony.png" alt="Wilder Side Testimonials" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="gallery pt-5 pb-5 text-black">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2>Gallery</h2>
+                <p>Immerse yourself through the eyes of The Wilder Group</p>
+            </div>
+            <div class="col-12">
+                <div id="gallery" class="gallery-container owl-carousel owl-theme">
+                    <div class="gallery-holder">
+                        <img src="./images/gallery1.jpg" alt="gallery" />
+                        <span class="captions">
+                            All images are copyright to The Wilder Group
+                        </span>
+                    </div>
+                    <div class="gallery-holder">
+                        <img src="./images/gallery1.jpg" alt="gallery" />
+                        <span class="captions">
+                            All images are copyright to The Wilder Group
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+<footer class="dark pt-5 pb-5 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-9">
+                <ul class="list-inline">
+                    <li><a href="javascript:void(0)">Experiences</a></li>
+                    <li><a href="javascript:void(0)">Special Offers</a></li>
+                    <li><a href="javascript:void(0)">Camps and Lodges</a></li>
+                    <li><a href="javascript:void(0)">About</a></li>
+                </ul>
+                <ul class="social-links">
+                    <li><a href="javascript:void(0)">
+                        <img src="./images/icons/IG.png" alt="Instagram" >
+                    </a></li>
+                    <li><a href="javascript:void(0)">
+                        <img src="./images/icons/FB.png" alt="Instagram" >
+                    </a></li>
+                    <li><a href="javascript:void(0)">
+                        <img src="./images/icons/TW.png" alt="Instagram" >
+                    </a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3 contacts">
+                <div class="location">
+                    <p>Address</p>
+                    <p>The Wilder Group Ltd</p>
+                    <p>Hill View, Spring Valley</p>  
+                    <p>P.O. Box 64196 Nairobi, Kenya.</p>  
+                </div>
+                <div class="mobile">
+                    <p>Mobile: </p>
+                    <p>0733 258 120</p>
+                     <p>0704 084 444</p>
+                </div>
+                <div class="email">
+                    <p><a href="mailto:info@wildergroup.">operations@thewildergroup.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 text-center last-footer pt-5 mt-5">
+                <img src="./images/logo.png" alt="footer logo" class="footer logo" />
+                <span>The Wilder Group 2022</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Reserve Form -->
+  <div class="modal fade main-form pt-5 mt-3" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Make a Reservation</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form class="reserve-form">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <input type="text" placeholder="First Name">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="col-12 col-md-12">
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                    <div class="col-12 col-md-12">
+                        <input type="email" placeholder="Country of Residence" class="border-btn">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="number" placeholder="Mobile Number">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="text" placeholder="Leave a Note">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="text" placeholder="Guest" class="border-btn">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="text" name="datefilter" placeholder="Select Dates" class="border-btn">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" placeholder="TWG Property" class="border-btn">
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="javascript:void(0)" class="discover">Discover More</a>
+                </div>
+                <div class="col-12 text-center newsletter textarea">
+                    <input type="checkbox" name="newsletter" class="news">
+                    Subscribe to monthly newsletter 
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- End Reserve Form -->
+
+<!-- jQuery -->
+<script src="js/jquery.js" type="text/Javascript"></script>
+<script src="js/main.js" type="text/Javascript"></script>
+
+</body>
+
+  </html>
