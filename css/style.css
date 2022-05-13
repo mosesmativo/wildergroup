@@ -244,7 +244,10 @@ button.owl-dot {background: transparent;border: 0;padding: 0;}
     color: #000;
 }
 .migration .image-holder{
-    height: 350px;
+    height: 300px;
+}
+.inside-page-content .image-holder{
+    height: 250px;
 }
 .small-heading h2, .small-heading h3{
     display: inline-block;
@@ -794,4 +797,15 @@ nav .light .discover{
     .migration, .review-section{
         padding-bottom: 0 !important;
     }
+}
+.inside-page-holder{
+    padding-bottom: 20rem;
+}
+.inside-page-content p{
+    line-height: 30px;
+    margin-bottom:1rem;
+}
+.inside-page-holder h1{
+    font-size: 32px;
+    margin-bottom: 2rem;
 }
