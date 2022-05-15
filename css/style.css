@@ -404,7 +404,7 @@ footer ul li{
     color: #fff;
     text-decoration: none;
 }
-a:hover{
+a:hover,.active{
     color: #929292 !important;
 }
 
@@ -633,7 +633,7 @@ nav .light .discover{
 .dropdown li a::after{
     display: none !important;
 }
-.sidebar__menu ul .parent:hover .dropdown{
+.sidebar__menu ul .parent:hover .dropdown,.parent{
     display: block !important;
     visibility: visible;
     opacity: 1;
@@ -796,6 +796,9 @@ nav .light .discover{
     }
     .migration, .review-section{
         padding-bottom: 0 !important;
+    }
+    .inside-page-holder {
+        padding-bottom: 15rem;
     }
 }
 .inside-page-holder{
